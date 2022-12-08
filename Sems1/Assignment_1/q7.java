@@ -16,7 +16,7 @@ public class q7 {
 		z = y;
 		System.out.println("x = "+ z);
 		z = x;
-		System.out.println("x = "+ z);
+		System.out.println("y = "+ z);
 	}
 }
 
