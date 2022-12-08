@@ -14,14 +14,12 @@ import java.util.Scanner;
 public class q1 {
 
     public static void main(String[] Strings) {
-
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Input a degree in Fahrenheit: ");
         int far = sc.nextInt();
-
         double celsius =(( 5 *(far - 32.0)) / 9.0);
         System.out.println(far + " degree Fahrenheit is equal to " + celsius + " in Celsius");
+        sc.close();
     }
 }
 

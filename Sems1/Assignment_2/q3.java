@@ -24,5 +24,6 @@ public class q3 {
         System.out.println("DA is "+da);
         System.out.println("HRA is "+hra);
         System.out.println("Gross Salary is "+g_salary);
+        sc.close();
     }
 }

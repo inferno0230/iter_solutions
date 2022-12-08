@@ -28,6 +28,6 @@ public class q2 {
         System.out.println(km+" km is "+feet);
         System.out.println(km+" km is "+inch);
         System.out.println(km+" km is "+cm);
-
+        sc.close();
     }
 }
