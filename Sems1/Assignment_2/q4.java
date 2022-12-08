@@ -14,9 +14,7 @@ import java.util.Scanner;
 public class q4 {
 	public static void main(String[] args){
         int sum;
-		Scanner sc = new Scanner(System.in);		// Create new Scanner object
-
-		// Prompt the user to enter a number between 0 and 1000.
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number between 0 and 1000: ");
 		int number = sc.nextInt();
         if(number>=0 && number<=1000){
@@ -31,5 +29,6 @@ public class q4 {
         } else {
             System.out.println("Invalid input");
         }
+		sc.close();
 	}
 }

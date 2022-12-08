@@ -26,7 +26,6 @@ public class q7 {
     a++;
     b++;
     }
-
-
+    inp.close();
     }
 }
