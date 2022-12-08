@@ -11,9 +11,9 @@ public class q8 {
 		System.out.println("Before Swap");
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
-        y=x+y;
-        x=y-x;
-        y=y-x;
+                y=x+y;
+                x=y-x;
+                y=y-x;
 		System.out.println("After swap");
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
