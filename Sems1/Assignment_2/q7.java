@@ -16,7 +16,7 @@ public class q7 {
     public static void main(String[]Args){
     double a,b;
     Scanner inp = new Scanner(System.in);
-    System.out.print("Enter two value: ");
+    System.out.println("Enter two value: ");
     a = inp.nextDouble();
     b = inp.nextDouble();
     System.out.println("a\t"+"b\t"+"pow(a,b)\t");
