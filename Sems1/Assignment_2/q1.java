@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class q1 {
 
-    public static void main(String[] Strings) {
+    public static void main(String[] Args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a degree in Fahrenheit: ");
         int far = sc.nextInt();
