@@ -24,10 +24,10 @@ public class q2 {
         m = km * 1000;
         feet = km * 3280.8399;
         inch = km * 39370.0787;
-        System.out.println(km+" km is "+m);
-        System.out.println(km+" km is "+feet);
-        System.out.println(km+" km is "+inch);
-        System.out.println(km+" km is "+cm);
+        System.out.println(km+" km is "+m+" in meter.");
+        System.out.println(km+" km is "+feet+" in feet.");
+        System.out.println(km+" km is "+inch+" in inch.");
+        System.out.println(km+" km is "+cm+"in centimetres.");
         sc.close();
     }
 }
