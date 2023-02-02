@@ -22,6 +22,7 @@ public class q4 {
       y = remainder;
     }
     System.out.println("GCD of " + x + " and " + y + " is " + x + ".");
+    sc.close();
   }
 }
 

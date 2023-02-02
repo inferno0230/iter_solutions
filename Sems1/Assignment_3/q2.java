@@ -17,5 +17,6 @@ public class q2 {
         } else {
             System.out.println("No, Alice is not following doctor's advice");
         }
+        scan.close();
     }
 }

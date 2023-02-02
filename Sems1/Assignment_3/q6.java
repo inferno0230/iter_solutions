@@ -25,5 +25,6 @@ public class q6 {
             bill = (50 * 3) + (150 * 4.80) + (200 * 5.80) + (units - 400) * 6.20;
         }
         System.out.println("Electricity bill: Rs." + bill);
+        scan.close();
     }
 }

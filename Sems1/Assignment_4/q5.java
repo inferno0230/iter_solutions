@@ -28,5 +28,6 @@ public class q5 {
     } else {
       System.out.println(n + " is not a perfect number.");
     }
+    sc.close();
   }
 }

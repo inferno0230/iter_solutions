@@ -45,5 +45,6 @@ public class q10 {
     }
 
     System.out.println("Grade: " + grade);
+    scan.close();
   }
 }

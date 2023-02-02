@@ -1,4 +1,4 @@
-package Sems1.Assignment_3;
+package Sems1.Assignment_3.Home_assignment;
 /* Write a java program that plays the popular scissor-rock-paper game. (A scissor can cut
 a paper, a rock can knock a scissor, and a paper can wrap a rock.) The program
 randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The
@@ -13,11 +13,10 @@ The computer is paper. You are paper too. It is a draw */
 import java.util.Scanner;
 import java.util.Random;
 
-public class ScissorRockPaper {
+public class q1 {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     Random rand = new Random();
-    
     System.out.println("scissor (0), rock (1), paper (2):");
     int user = scan.nextInt();
     int computer = rand.nextInt(3);
@@ -54,6 +53,7 @@ public class ScissorRockPaper {
     } else {
       System.out.println("You lost.");
     }
+    scan.close();
   }
 }
 

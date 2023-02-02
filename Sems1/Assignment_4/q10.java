@@ -15,5 +15,6 @@ public class q10 {
             result *= 3;
         }
         System.out.println("The largest power of 3 less than or equal to " + n + " is " + (result / 3));
+        input.close();
     }
 }

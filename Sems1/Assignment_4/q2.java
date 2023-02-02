@@ -32,6 +32,7 @@ public class q2 {
     } else {
       System.out.println(num + " is not divisible by 9");
     }
+    input.close();
   }
 }
 

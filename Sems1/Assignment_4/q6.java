@@ -19,5 +19,6 @@ public class q6 {
       result *= base;
     }
     System.out.println(base + " to the power " + power + " is: " + result);
+    sc.close();
   }
 }

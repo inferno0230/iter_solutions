@@ -25,5 +25,6 @@ public class q3 {
     System.out.println();
     double average = (double) sum / n;
     System.out.println("Average of " + n + " random numbers is " + average);
+    sc.close();
   }
 }

@@ -21,5 +21,6 @@ public class q9 {
             number /= 10;
         }
         System.out.println("After removing 0 from number " + number + ", the new number is " + str);
+        input.close();
     }
 }

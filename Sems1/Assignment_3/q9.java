@@ -34,5 +34,6 @@ public class q9 {
 
     System.out.println("Largest number: " + largest);
     System.out.println("2nd largest number: " + secondLargest);
+    scan.close();
   }
 }

@@ -29,5 +29,6 @@ public class q1 {
     }
     System.out.println();
     System.out.println("The sum of numbers displayed is " + sum);
+    input.close();
   }
 }

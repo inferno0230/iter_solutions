@@ -31,5 +31,6 @@ public class q8 {
     } else {
       System.out.println("(" + x + ", " + y + ") is in quadrant IV.");
     }
+    scan.close();
   }
 }

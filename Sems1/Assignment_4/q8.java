@@ -30,5 +30,6 @@ public class q8 {
       }
     } while (userGuess != randomNumber);
     System.out.println("Good guess");
+    sc.close();
   }
 }

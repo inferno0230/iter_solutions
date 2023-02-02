@@ -31,5 +31,6 @@ public class q4 {
         } else {
             System.out.println("You got it wrong");
         }
+        scan.close();
     }
 }

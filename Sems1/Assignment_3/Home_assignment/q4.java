@@ -1,5 +1,4 @@
-package Sems1.Assignment_3;
-/* Write a java program that prompts the user to enter an integer and determines whether
+package Sems1.Assignment_3.Home_assignment;/* Write a java program that prompts the user to enter an integer and determines whether
 it is divisible by 5 and 6, whether it is divisible by 5 or 6, and whether it is divisible
 by 5 or 6, but not both.
 Here is a sample run of this program:
@@ -17,12 +16,13 @@ public class q4 {
     System.out.print("Enter an integer: ");
     int num = input.nextInt();
 
-    boolean 5_and_6 = (num % 5 == 0) && (num % 6 == 0);
-    boolean 5_or_6 = (num % 5 == 0) || (num % 6 == 0);
-    boolean only_5_or_6 = (num % 5 == 0) ^ (num % 6 == 0);
+    boolean five_and_six = (num % 5 == 0) && (num % 6 == 0);
+    boolean five_or_six = (num % 5 == 0) || (num % 6 == 0);
+    boolean only_five_or_six = (num % 5 == 0) ^ (num % 6 == 0);
 
-    System.out.println("Is " + num + " divisible by 5 and 6? " + 5_and_6);
-    System.out.println("Is " + num + " divisible by 5 or 6? " + 5_or_6);
-    System.out.println("Is " + num + " divisible by 5 or 6, but not both? " + only_5_or_6);
+    System.out.println("Is " + num + " divisible by 5 and 6? " + five_and_six);
+    System.out.println("Is " + num + " divisible by 5 or 6? " + five_or_six);
+    System.out.println("Is " + num + " divisible by 5 or 6, but not both? " + only_five_or_six);
+    input.close();
   }
 }

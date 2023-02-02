@@ -36,5 +36,6 @@ public class q3 {
         } else {
             System.out.println("Neither increasing nor decreasing order");
         }
+        scan.close();
     }
 }

@@ -15,5 +15,6 @@ public class q1 {
         } else {
             System.out.println("You are not eligible to cast your vote");
         }
+        scan.close();
     }
 }

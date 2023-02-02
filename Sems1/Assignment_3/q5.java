@@ -30,5 +30,6 @@ public class q5 {
         leap = false;
         }
         System.out.println(year + " is a leap year: " + leap);
+        scan.close();
     }
 }
