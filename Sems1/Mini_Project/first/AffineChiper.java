@@ -24,7 +24,7 @@ public class AffineChiper{
         int k1 = 7; // Multiplicative key
         int k2 = 2; // Additive key
         char[] ciphertext = new char[plaintext.length()];
-        // Computer block for encryption of key
+        // Compute block for encryption of key
         for (int i = 0; i < plaintext.length(); i++) {
           int k3 = plaintext.charAt(i) - 'a';
           int encrypted = (k3 * k1 +k2) % 26; //  Formula according to question "C = (P × k1 + k2) mod 26  k1 + k2) mod 26"
