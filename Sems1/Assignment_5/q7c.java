@@ -1,4 +1,11 @@
 package Sems1.Assignment_5;
+/* Write a program to print the following outputs using for loops:
+    1
+   12
+  123
+ 1234
+12345
+ */
 
 public class q7c {
     public static void main(String[]Args){
