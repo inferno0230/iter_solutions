@@ -29,12 +29,12 @@ public class AffineChiper{
           char character_check = plaintext.charAt(i); // Use a temprary variable (character_check) for identification of character type
           if (Character.isUpperCase(character_check)){
             int k3 = plaintext.charAt(i) - 'A'; // Use k3 variable to hold value of characters in integer
-            int encrypted = (k3 * k1 +k2) % 26; //  Formula according to question "C = (P × k1 + k2) mod 26  k1 + k2) mod 26"
+            int encrypted = (k3 * k1 +k2) % 26; //  Formula according to question "C = (P × k1 + k2) mod 26 ) mod 26"
             ciphertext += (char)(encrypted + 'A');
 
           } else {
             int k3 = plaintext.charAt(i) - 'a';
-            int encrypted = (k3 * k1 +k2) % 26; //  Formula according to question "C = (P × k1 + k2) mod 26  k1 + k2) mod 26"
+            int encrypted = (k3 * k1 +k2) % 26; //  Formula according to question "C = (P × k1 + k2) mod 26 ) mod 26"
             ciphertext += (char)(encrypted + 'a');
           }
         }
@@ -59,12 +59,12 @@ public class AffineChiper{
           char character_check = ciphertext.charAt(i); // Use a temprary variable (character_check) for identification of character type
           if (Character.isUpperCase(character_check)){
             int k3 = ciphertext.charAt(i) - 'A'; // Use k3 variable to hold value of characters in integer
-            int decrypted = ((k3 - k2 + 26)* k1_inverse) % 26; //  Formula according to question "P = ((C − k2) × k1 k2) × k1 + k2) mod 26  k1− k2) × k1^-1) mod 26"
+            int decrypted = ((k3 - k2 + 26)* k1_inverse) % 26; //  Formula according to question "P = ((C − k2) × k1 k2) × k1 + k2) mod 26 ) × k1^-1) mod 26"
             plaintext += (char)(decrypted + 'A');
 
           } else {
             int k3 = ciphertext.charAt(i) - 'a';
-            int decrypted = ((k3 - k2 + 26)* k1_inverse) % 26; //  Formula according to question "P = ((C − k2) × k1 k2) × k1 + k2) mod 26  k1− k2) × k1^-1) mod 26"
+            int decrypted = ((k3 - k2 + 26)* k1_inverse) % 26; //  Formula according to question "P = ((C − k2) × k1 k2) × k1 + k2) mod 26 ) × k1^-1) mod 26"
             plaintext += (char)(decrypted + 'a');
           }
         }
