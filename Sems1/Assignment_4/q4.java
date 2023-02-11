@@ -16,12 +16,16 @@ public class q4 {
     int x = sc.nextInt();
     System.out.print("Enter the second number: ");
     int y = sc.nextInt();
-    while (y != 0) {
-      int remainder = x % y;
-      x = y;
-      y = remainder;
+    
+    int min = Math.min(x, y);
+    int gcd = 0;
+    for(int i=1;i<=min;i++){
+      if(min!=0 && y%i==0 && x%i==0){
+        gcd = i;
+      }
     }
-    System.out.println("GCD of " + x + " and " + y + " is " + x + ".");
+
+    System.out.println(gcd);
     sc.close();
   }
 }
