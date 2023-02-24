@@ -9,7 +9,11 @@ public class q9 {
         String x = input.next();
         input.close();
 
-        System.out.println(pass_check(x));
+        if (pass_check(x)==true){
+            System.out.println("Password is valid");
+        } else {
+            System.out.println("Password is invalid");
+        }
 
     }
 
@@ -18,13 +22,11 @@ public class q9 {
         char a[] = x.toCharArray();
         if(a.length >= 8){
             check_len = true;
-            System.out.println("check_len "+check_len);
         }
 
         for (int i=0;i<x.length();i++){
             if((x.charAt(i)>='a' && x.charAt(i)<='z') || (x.charAt(i)>='0' && x.charAt(i)<='9') || (x.charAt(i)>='A' && x.charAt(i)<='Z')){
                 check_letter_digit = true;
-                System.out.println("check_letter_digit "+check_letter_digit);
             } else {
                 check_letter_digit = false;
                 break;
@@ -40,12 +42,10 @@ public class q9 {
         }
         if (count>=2){
             check_total_digit=true;
-            System.out.println("check_total_digit "+check_total_digit);
         }
 
         if(check_len == true && check_letter_digit == true && check_total_digit == true){
             check =true;
-            System.out.println("check "+check);
         }
 
         return check;
