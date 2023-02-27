@@ -15,18 +15,15 @@ public class q8 {
 
     public static boolean isPalindrome(String x){
         boolean check = false;
+        String rev = "";
         char a[] = x.toCharArray();
-        StringBuilder temp = new StringBuilder();
-        for (int i = x.length()-1;i >= 0;i--){
-            temp.append(a[i]);
+        for (int i=(a.length-1);i>=0;i--){
+            rev += a[i] + "";
         }
-        String string = temp.toString();
-        System.out.print(string);
-
-        for (int i = 0;i<x.length();i++){
-            if (x.charAt(i)==string.charAt(i)){
-                check = true;
-            }
+        
+        rev = rev.trim();
+        if(rev.equals(x)){
+            check = true;
         }
         return check;
     }
