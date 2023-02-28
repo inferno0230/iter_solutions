@@ -21,6 +21,7 @@ public class A3Q10 {
     char grade;
     switch (marks / 10) {
       case 10:
+        grade = 'O';
       case 9:
         grade = 'O';
         break;
