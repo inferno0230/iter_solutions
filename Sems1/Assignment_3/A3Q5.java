@@ -15,18 +15,10 @@ public class A3Q5 {
         System.out.print("Input the year: ");
         int year = scan.nextInt();
         boolean leap = false;
-        if (year % 4 == 0) {
-            if (year % 100 == 0) {
-            if (year % 400 == 0) {
-                leap = true;
-            } else {
-                leap = false;
-            }
-            } else {
-                leap = true;
-            }
-        } else {
-        leap = false;
+        if (year%4==0 && year%100!=0){
+            leap = true;
+        } else if (year%400==0){
+            leap = true;
         }
         System.out.println(year + " is a leap year: " + leap);
         scan.close();

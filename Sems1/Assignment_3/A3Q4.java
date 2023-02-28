@@ -23,6 +23,7 @@ public class A3Q4 {
         scan.close();
 
         int computerGuess = (int)((Math.random()*9)+1);
+        System.out.println(computerGuess);
 
         if (userGuess == computerGuess) {
             System.out.println("You got it right");

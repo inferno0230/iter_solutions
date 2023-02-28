@@ -23,10 +23,8 @@ public class A3Q7{
         } else {
             bill = (50 * 3) + (150 * 4.80) + (200 * 5.80) + (units - 400) * 6.20;
         }
-        Scanner scan_2 = new Scanner(System.in);
         System.out.print("\nDo you want to pay online(y/n): ");
-        String choice = scan_2.next();
-        System.out.print(choice);
+        String choice = scan.next();
         if(choice.equalsIgnoreCase("y")){
             double discount = bill*(3.0/100.0);
             System.out.println("Total amount: " +(int)bill);
@@ -36,6 +34,5 @@ public class A3Q7{
             System.out.println("Electricity bill: Rs." + bill);
         }
         scan.close();
-        scan_2.close();
     }
 }
