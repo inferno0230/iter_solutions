@@ -13,16 +13,17 @@ Enter user number: 1
 Computer guesses: 5
 “You got it wrong” */
 
-import java.util.Random;
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class A3Q4 {
     public static void main(String[] args) {
-        Random random = new Random();
-        int computerGuess = random.nextInt(9) + 1;
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter user number: ");
         int userGuess = scan.nextInt();
+        scan.close();
+
+        int computerGuess = (int)((Math.random()*9)+1);
+
         if (userGuess == computerGuess) {
             System.out.println("You got it right");
         } else if ((userGuess == computerGuess + 1) || (userGuess == computerGuess - 1)) {
