@@ -1,4 +1,3 @@
-package Sems1.Assignment_4.Home_assignment;
 /* Write a java program to print the sum of all even numbers and the product of all odd numbers
 from 1 to N. Where, N is the input to the program.
 For input, N = 10

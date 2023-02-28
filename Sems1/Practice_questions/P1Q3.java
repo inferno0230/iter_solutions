@@ -1,4 +1,3 @@
-package Sems1.Practice_questions;
 
 import java.util.Scanner;
 

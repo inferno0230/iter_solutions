@@ -1,4 +1,3 @@
-package Sems1.Assignment_5;
 /*  Write a program to display the multiplication table from 2 to 15. */
 
 public class A5Q5{

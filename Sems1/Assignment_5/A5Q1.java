@@ -1,4 +1,3 @@
-package Sems1.Assignment_5;
 /* Amicable numbers are pair of numbers each of whose divisors are added to give the other
 number.
 Example: The smallest pair of amicable numbers is (220, 284).

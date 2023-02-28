@@ -1,4 +1,3 @@
-package Sems1.Assignment_5; 
 /* WAP to enter the value of n and display find the following b of the series:
 (0 + 1) + (1 + 2) + (1+ 2 +3) ..... + (1 + 2 + 3 + .... + n) */
 

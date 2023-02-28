@@ -1,4 +1,3 @@
-package Sems1.Assignment_3;
 /* Alice visited SUM hospital to get treatment for her fever and illness. Doctor advised
 her to drink at least 5000 ml of water each day. Alice drank x ml of water today. Write
 a program that print the following message depending on the value of x.

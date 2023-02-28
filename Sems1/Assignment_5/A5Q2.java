@@ -1,4 +1,3 @@
-package Sems1.Assignment_5;
 /* Write a program to check whether a number is twisted prime or not. Twisted prime is a number if the
 number and its reverse both are prime then it is called twisted prime.
 Sample run 1:

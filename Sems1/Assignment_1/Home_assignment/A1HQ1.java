@@ -1,4 +1,3 @@
-package Sems1.Assignment_1.Home_assignment;
 /*
  What do each of the following print?
 a) System.out.println(2 + "bc");

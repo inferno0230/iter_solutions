@@ -1,4 +1,3 @@
-package Sems1.Assignment_4.Home_assignment;
 /*Write a java program to print the following output using loop. Where, input is the number of
 rows in output pattern.
 For input, N = 4.

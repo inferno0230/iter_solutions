@@ -1,4 +1,3 @@
-package Sems1.Assignment_2;
 /*
  Write a java program that reads the radius of a hemisphere and computes the surface area
 and volume using the following formulas:

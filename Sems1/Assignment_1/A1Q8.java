@@ -1,4 +1,3 @@
-package Sems1.Assignment_1;
 
 /*Write a java program to exchange the values of two variables of integer type X and Y without
 using third temporary variable. */

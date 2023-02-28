@@ -1,4 +1,3 @@
-package Sems1.Assignment_1.Home_assignment;
 /*
  Suppose that a variable a is declared as double a = 3.14159. What do each of the following
 print?

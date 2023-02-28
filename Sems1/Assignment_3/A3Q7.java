@@ -1,4 +1,3 @@
-package Sems1.Assignment_3;
 /* From the above question no. (6) write a java program with a choice if the consumer
 wants to pay bill online. Consumer who pays their electricity bill online will get a
 discount of 3%.

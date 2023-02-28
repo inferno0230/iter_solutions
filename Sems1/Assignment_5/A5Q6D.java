@@ -1,4 +1,3 @@
-package Sems1.Assignment_5;
 /* Write a program to print the following outputs using for loops:
 1
 12

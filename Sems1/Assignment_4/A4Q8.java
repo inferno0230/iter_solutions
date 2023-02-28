@@ -1,4 +1,3 @@
-package Sems1.Assignment_4;
 /* Write a program that generates a random integer number between 1 to 10 and asks the user to
 guess what the number is. If the user's guess is higher than the random number, the program
 should display "Too high, try again." If the user's guess is lower than the random number, the

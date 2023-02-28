@@ -1,4 +1,3 @@
-package Sems1.Assignment_2;
 /*
 Enter the basic salary of an employee of an organization through the keyboard. His dearness
 allowance (DA) is 40% of basic salary, and house rent allowance (HRA) is 20% of basic

@@ -1,4 +1,3 @@
-package Sems1.Assignment_2.Home_assignment;
 /*
 If you have N eggs, then you have N/12 dozen eggs, with N%12 eggs left over. (This is
 essentially the definition of the / and % operators for integers.) Write a java program that asks

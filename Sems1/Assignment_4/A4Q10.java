@@ -1,4 +1,3 @@
-package Sems1.Assignment_4;
 /* Write a java program to print largest power of three less than or equal to N.
 Sample run:
 Enter a number: 100

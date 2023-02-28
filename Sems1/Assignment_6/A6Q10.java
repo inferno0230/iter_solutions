@@ -1,4 +1,3 @@
-package Sems1.Assignment_6;
 
 
 public class A6Q10 {

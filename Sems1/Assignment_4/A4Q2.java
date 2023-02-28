@@ -1,4 +1,3 @@
-package Sems1.Assignment_4;
 /* An integer n is divisible by 9 if the sum of its digits is divisible by 9. Use this concept in your
 program to determine whether or not the number is divisible by 9. Test it on the following
 numbers: Use while loop.

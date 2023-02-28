@@ -1,4 +1,3 @@
-package Sems1.Assignment_3;
 /* Write a Java program that takes a year from user and print true if that year is a leap year
 otherwise print false.
 Here is a sample run:

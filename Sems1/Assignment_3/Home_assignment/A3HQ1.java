@@ -1,4 +1,3 @@
-package Sems1.Assignment_3.Home_assignment;
 /* Write a java program that plays the popular scissor-rock-paper game. (A scissor can cut
 a paper, a rock can knock a scissor, and a paper can wrap a rock.) The program
 randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The
