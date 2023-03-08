@@ -4,13 +4,13 @@ public class P1Q1 {
         public static void main(String[]Args){
             Scanner input = new Scanner(System.in);
             System.out.print("Enter size of array:");
-        int size=sc.nextInt();
-        int n[]=new int[size];
-        sc.close();
+            int size=input.nextInt();
+            int n[]=new int[size];
+            input.close();
         
             for(int i=0;i<=n.length-1;i++) {
-            Random rand = new Random();
-            n[i] = rand.nextInt(1, size);
+                Random rand = new Random();
+                n[i] = rand.nextInt(1, size);
         }
 
         System.out.println("The sum of value's present in array is "+add(n));

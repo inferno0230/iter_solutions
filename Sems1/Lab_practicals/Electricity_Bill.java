@@ -30,6 +30,7 @@ public class Electricity_Bill {
         } else {
             System.out.print("Invalid input");
         }
+        input.close();
     }
 
     public static double domestic_bill(int units) {
