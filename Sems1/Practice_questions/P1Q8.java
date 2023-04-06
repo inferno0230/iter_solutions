@@ -1,3 +1,4 @@
+package Sems1.Practice_questions;
 
 public class P1Q8 {
     public static void main(String[]args){

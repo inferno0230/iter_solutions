@@ -1,3 +1,4 @@
+package Sems1.Assignment_4;
 /* Write a java program that takes an integer N from user, uses
 Math. Random () to print N random integer numbers between 1 to N, and then prints their
 average value. Use do while loop.

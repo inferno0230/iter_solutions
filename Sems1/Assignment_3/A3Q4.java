@@ -1,3 +1,4 @@
+package Sems1.Assignment_3;
 /* Make a simple game involving a computer and a user. The computer first guesses a
 number between 1 and 9 inclusive, then ask the user to enter a number between 1 and
 9 inclusive. If the user guess is correct then display “You got it right”, if the guess is

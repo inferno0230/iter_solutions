@@ -1,3 +1,4 @@
+package Sems1.Assignment_3;
 /*Write a program that reads three integers from the user and prints "Increasing" if the
 numbers are in increasing order, "Decreasing" if the numbers are in decreasing order,
 and "Neither increasing nor decreasing order" otherwise.

@@ -1,3 +1,4 @@
+package Sems1.Assignment_4;
 /* Write a java program to take an integer input from the user and print the input by removing all
 zeros.
 Example: Input = 10200 then Output = 12.

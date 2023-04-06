@@ -1,3 +1,4 @@
+package Sems1.Assignment_4;
 /* Write a java program to print the multiplication table of a number entered by the user.
 Sample run:
 Enter a no. for which you want to find the multiplication table:

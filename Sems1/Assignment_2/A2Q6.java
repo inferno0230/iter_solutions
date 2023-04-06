@@ -1,3 +1,4 @@
+package Sems1.Assignment_2;
 /*
     When a brick is dropped from a tower, it falls faster and faster until it hits the earth. The
     distance it travels is given by d = (1/2) gt 2

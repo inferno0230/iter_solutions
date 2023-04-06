@@ -1,3 +1,4 @@
+package Sems1.Assignment_4;
 /* Write a Java program to check if a number is perfect number or not.
 (Hints: A number N is called perfect number, if the sum of factors except N as a factor is
 equals to the number N.

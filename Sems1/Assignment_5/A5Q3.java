@@ -1,3 +1,4 @@
+package Sems1.Assignment_5;
 /*Write a program to enter the first number and second number. Display the prime numbers between the
 first and second number.
 Sample run:

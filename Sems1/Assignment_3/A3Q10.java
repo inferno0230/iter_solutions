@@ -1,3 +1,4 @@
+package Sems1.Assignment_3;
 /* A University conducts a 100-mark exam for its student and grades them as follows.
 Assigns a grade based on the value of the marks. Write a java program to print the
 grade according to the mark secured by the student. [Use switch-case].

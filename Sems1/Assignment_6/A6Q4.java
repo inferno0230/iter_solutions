@@ -1,3 +1,4 @@
+package Sems1.Assignment_6;
 
 import java.util.Scanner;
 public class A6Q4 {

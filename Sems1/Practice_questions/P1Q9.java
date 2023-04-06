@@ -1,3 +1,4 @@
+package Sems1.Practice_questions;
 
 import java.util.Scanner;
 public class P1Q9 {

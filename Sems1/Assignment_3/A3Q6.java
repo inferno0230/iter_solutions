@@ -1,3 +1,4 @@
+package Sems1.Assignment_3;
 /* Write a java program to calculate the monthly electricity bill. The tariff is given as
 follows:
 Price per unit  | Unit range

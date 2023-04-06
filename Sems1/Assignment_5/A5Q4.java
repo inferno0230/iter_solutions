@@ -1,3 +1,4 @@
+package Sems1.Assignment_5;
 /* Write a program to calculate and display the factorial of all numbers between m and n (where m < n, m
 > 0, n > 0)
 Sample run:

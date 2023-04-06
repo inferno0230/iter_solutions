@@ -1,3 +1,5 @@
+package Sems1.Assignment_2;
+
 public class A2CLQ4 {
     public static void main(String[]args){
         double t = Double.parseDouble(args[0]);

@@ -1,3 +1,5 @@
+package Sems1.Assignment_2.Home_assignment;
+
 public class A2HCLQ3 {
     public static void main(String[]args){
         int a = args[0].charAt(0)-48;

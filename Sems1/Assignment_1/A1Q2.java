@@ -1,3 +1,4 @@
+package Sems1.Assignment_1; //ignore this line for lab work
 
 /*
  * Write a complete Java program that shows the pattern similar to the following.

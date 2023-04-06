@@ -1,3 +1,4 @@
+package Sems1.Assignment_1; //ignore this line for lab work
 
 /*
  * Q1. Write a java program to display following messages :=

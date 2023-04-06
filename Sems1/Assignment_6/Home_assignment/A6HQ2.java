@@ -1,3 +1,4 @@
+package Sems1.Assignment_6.Home_assignment;
 
 public class A6HQ2 {
     public static void main(String[]args){

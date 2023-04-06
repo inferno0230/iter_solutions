@@ -1,3 +1,4 @@
+package Sems1.Assignment_1;
 
 /* 
     Write a java program to store your Bank account no, name and balance in three different

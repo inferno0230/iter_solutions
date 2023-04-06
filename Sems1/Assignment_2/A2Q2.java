@@ -1,3 +1,4 @@
+package Sems1.Assignment_2;
 /*
  The distance between two cities (in km.) is input through the keyboard. Write a java program
 to convert and print this distance in meters, feet, inches and centimetres.

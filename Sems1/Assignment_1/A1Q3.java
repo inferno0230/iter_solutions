@@ -1,3 +1,4 @@
+package Sems1.Assignment_1; //ignore this line for lab work
 
 /*
  * Write a java program to print the following pattern using Hash (#).

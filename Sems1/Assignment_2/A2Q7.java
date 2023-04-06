@@ -1,3 +1,4 @@
+package Sems1.Assignment_2;
 /*
  Write a java program that displays the following table. Cast floating-point numbers into
 integers.

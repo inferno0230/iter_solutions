@@ -1,3 +1,4 @@
+package Sems1.Assignment_3;
 /* Write a program to input the age of a person and check if the age of the person is
 greater than or equal to 18 then print the message:
 

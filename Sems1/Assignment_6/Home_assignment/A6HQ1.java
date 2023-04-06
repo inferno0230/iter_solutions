@@ -1,3 +1,4 @@
+package Sems1.Assignment_6.Home_assignment;
 
 import java.util.Scanner;
 

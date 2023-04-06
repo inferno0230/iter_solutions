@@ -1,3 +1,4 @@
+package Sems1.Mini_Project.first;
 
 import java.util.Scanner;
 public class AffineChiper{

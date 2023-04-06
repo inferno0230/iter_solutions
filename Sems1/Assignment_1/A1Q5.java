@@ -1,3 +1,4 @@
+package Sems1.Assignment_1;
 
 /* 
 Write a java program to greet someone. Your program stores person name and greeting

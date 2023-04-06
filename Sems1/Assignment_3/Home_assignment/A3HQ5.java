@@ -1,4 +1,5 @@
-/* Write a java program which displays an appropriate name for a person, using a combination of nested ifs and compound conditions. Ask the user for a gender, first
+package Sems1.Assignment_3.Home_assignment;/* Write a java program which displays an appropriate name for a person, using a
+combination of nested ifs and compound conditions. Ask the user for a gender, first
 name, last name and age. If the person is female and 20 or over, ask if she is married.
 If so, display "Mrs." in front of her name. If not, display "Ms." in front of her name. If
 the female is under 20, display her first and last name. If the person is male and 20 or
