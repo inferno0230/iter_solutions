@@ -20,10 +20,9 @@ public class A1Q6 {
     }
 
     public static boolean isOdd(int n){
-        boolean check = false;
-        if(n%2!=0){
-            check = true;
-        }
-        return check;
-    }
+       if((n&1)==0){
+           return false;
+       }else{
+           return true;
+       }
 }
