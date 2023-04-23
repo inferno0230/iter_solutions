@@ -1,3 +1,4 @@
+package Sems1.Lab_practicals;
 import java.util.Scanner;
 
 public class Electricity_Bill {
