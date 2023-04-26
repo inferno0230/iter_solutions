@@ -22,7 +22,7 @@ public class A1Q5 {
             n = sum_Of_Digits(n);
         }
 
-        System.out.print("Sum of digits of 9294 until the number is a single digit is "+n);
+        System.out.print("Sum of digits of "+n+" until the number is a single digit is "+n);
 
     }
 
