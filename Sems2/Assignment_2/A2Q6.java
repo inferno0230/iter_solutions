@@ -1,69 +1,55 @@
 package Sems2.Assignment_2;
-import java.util.Scanner;
 
-class Deposit {
-    long principle;
-    int time;
-    double rate;
-    double total_amt;
+abstract class Shape {
+    abstract double area();
+}
 
-    void Deposit() {
-        this.principle = 0;
-        this.time = 0;
-        this.rate = 0;
-        this.total_amt = 0;
+class Square extends Shape {
+    double side;
+    
+    Square(double side) {
+        this.side = side;
     }
-
-    void Deposit(long principle,int time,double rate){
-        this.principle = principle;
-        this.time = time;
-        this.rate = rate;
-        this.total_amt = 0;
+    
+    double area() {
+        return side * side;
     }
+}
 
-    void Deposit(long principle,int time){
-        this.principle = principle;
-        this.time = time;
-        this.rate = 7;
-        this.total_amt = 0;
+class Triangle extends Shape {
+    double base;
+    double height;
+    
+    Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
     }
-
-    void Deposit(long principle,double rate) {
-        this.principle = principle;
-        this.time = 5;
-        this.rate = rate;
-        this.total_amt = 0;
+    
+    double area() {
+        return 0.5 * base * height;
     }
+}
 
-    void display(){
-        System.out.println("Principle = "+this.principle+"\nTime = "+this.time+"\nRate = "+this.rate+"\n");
+class Circle extends Shape {
+    double radius;
+    
+    Circle(double radius) {
+        this.radius = radius;
     }
-
-    void calc_amt(){
-        this.total_amt = principle + ((principle*rate*time)/100);
-        System.out.println("Total ammount is : "+this.total_amt);
+    
+    double area() {
+        return Math.PI * radius * radius;
     }
 }
 
 public class A2Q6 {
-    public static void main(String[]args){
-        Deposit user1 = new Deposit();
-        Deposit user2 = new Deposit();
-        Deposit user3 = new Deposit();
-        Deposit user4 = new Deposit();
-        user1.Deposit();
-        user2.Deposit(800,5,7.0);
-        user3.Deposit(800,5);
-        user4.Deposit(800,7.0);
-
-        user1.display();
-        user2.display();
-        user3.display();
-        user4.display();
-
-        user1.calc_amt();
-        user2.calc_amt();
-        user3.calc_amt();
-        user4.calc_amt();
+    public static void main(String[] args) {
+        Shape square = new Square(5);
+        Shape triangle = new Triangle(4, 6);
+        Shape circle = new Circle(3);
+        
+        System.out.println("Area of square: " + square.area());
+        System.out.println("Area of triangle: " + triangle.area());
+        System.out.println("Area of circle: " + circle.area());
     }
 }
