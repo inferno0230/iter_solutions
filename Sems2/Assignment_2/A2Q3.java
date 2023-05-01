@@ -2,7 +2,7 @@ package Sems2.Assignment_2;
 import java.security.spec.DSAGenParameterSpec;
 import java.util.Scanner;
 
-class Student {
+class Student_A2Q3 {
     int rollNo;
     String name;
     double dsaMarks;
@@ -26,9 +26,9 @@ class Student {
 
 public class A2Q3 {
     public static void main(String[]args){
-        Student[] user = new Student[5];
+        Student_A2Q3[] user = new Student_A2Q3[5];
         for (int i = 0; i < user.length; i++) {
-            user[i] = new Student();
+            user[i] = new Student_A2Q3();
             System.out.println("Enter the details of Student " + (i+1));
             user[i].getData();
             user[i].showData();
