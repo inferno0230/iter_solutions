@@ -12,8 +12,8 @@ public class A1Q7 {
         }
         input.close();
 
-        System.out.println("Maximum element of Array is "+max(a)+" and occures "+count(a,max(a)));
-        System.out.println("Maximum element of Array is "+min(a)+" and occures "+count(a,min(a)));
+        System.out.println("Maximum element of Array is "+max(a)+" and occurs "+count(a,max(a)));
+        System.out.println("Maximum element of Array is "+min(a)+" and occurs "+count(a,min(a)));
         System.out.println("First occurrence of maximum element is at position "+first_occ(a, max(a)));
         System.out.println("Last occurrence of minimum element is at position "+last_occ(a, min(a)));
 
