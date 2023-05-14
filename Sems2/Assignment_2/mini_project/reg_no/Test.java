@@ -124,7 +124,6 @@ public class Test extends Employee {
                     int day = Integer.parseInt(tempDate.substring(0, 2));
                     int month = Integer.parseInt(tempDate.substring(2, 4));
                     int year = Integer.parseInt(tempDate.substring(4, 8));
-                    System.out.println("debug: "+day+" "+month+" "+year);
                     emp[i].hireDate = new Date(day, month, year);
                 }
             }
