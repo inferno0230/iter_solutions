@@ -1,5 +1,5 @@
-package Sems2.Assignment_2.mini_project.reg_no;
-import Sems2.Assignment_2.mini_project.reg_no.classes.*;
+package Sems2.mini_project.reg_no;
+import Sems2.mini_project.reg_no.classes.*;
 import java.util.Scanner;
 
 public class Test extends Employee {

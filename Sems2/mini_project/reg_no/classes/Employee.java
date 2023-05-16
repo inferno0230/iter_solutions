@@ -1,4 +1,4 @@
-package Sems2.Assignment_2.mini_project.reg_no.classes;
+package Sems2.mini_project.reg_no.classes;
 
 
 public class Employee {
