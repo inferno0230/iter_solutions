@@ -15,6 +15,8 @@ public class A3Q2 {
             int temp = Integer.parseInt(arr[0]);
         } catch(NumberFormatException e) {
             System.out.print(e);
+        } finally {
+            input.close();
         }
 
     }
