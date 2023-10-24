@@ -27,6 +27,7 @@ public class q2 {
         for(int i = 0; i < 5; i++) {
             arr[i] = input.nextInt();
         }
+        input.close();
         arr = insertionSort(arr);
         System.out.println("Sorted array: ");
         for(int i = 0; i < 5; i++) {

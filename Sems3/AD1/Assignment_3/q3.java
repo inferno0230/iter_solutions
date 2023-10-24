@@ -26,6 +26,7 @@ public class q3 {
         for(int i = 0; i < 5; i++) {
             arr[i] = input.nextInt();
         }
+        input.close();
         arr = selectionSort(arr);
         System.out.println("Sorted array: ");
         for(int i = 0; i < 5; i++) {
