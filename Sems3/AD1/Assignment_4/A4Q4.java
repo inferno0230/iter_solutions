@@ -1,4 +1,4 @@
-public class q4 {
+public class A4Q4 {
     public static void main(String[] args) {
         int[] array1 = {1, 3, 5, 7};
         int[] array2 = {2, 4, 6, 8, 10};

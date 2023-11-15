@@ -1,4 +1,4 @@
-public class q1 {
+public class A4Q1 {
     public static void main(String[] args) {
         int[] array = {100, 50, 5, 60, 30, 1, 3, 70};
         int index = 2;

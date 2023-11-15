@@ -1,5 +1,5 @@
 package Sems3.AD1.Assignment_2;
-public class q3 {
+public class A2Q3 {
     public static void main(String[] args) {
         System.out.println(fact(5));
     }

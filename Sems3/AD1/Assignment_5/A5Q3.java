@@ -2,14 +2,18 @@ package Sems3.AD1.Assignment_5;
 
 import java.util.Scanner;
 
-public class q2 {
-
-    public static int linearsearch(int arr[], int size, int key){
-        if (size == 0) return -1;
-        else if (arr[size - 1] == key) return size - 1;
-        return linearsearch(arr, size - 1, key);
+public class A5Q3 {
+    public static int binarySearch(int array[],int target) {
+        int left = 0;
+        int right = array.length;
+        while (left <= right) {
+            int mid = (left+right)/2;
+            if(array[mid] == target) return mid;
+            else if(array[mid] < target) left = mid + 1;
+            else if(array[mid] > target) right = mid - 1;
+        }
+        return -1;
     }
-
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -21,7 +25,7 @@ public class q2 {
         int key = input.nextInt();
         input.close();
 
-        int index = linearsearch(array, array.length, key);
+        int index = binarySearch(array, key);
         System.out.println(key+" found at array index "+index);
     }
 }

@@ -1,4 +1,4 @@
-public class q3 {
+public class A4Q3 {
     public static void main(String[] args) {
         int[] array = {12, 11, 13, 5, 6, 7};
         System.out.println("Unsorted Array:");

@@ -1,6 +1,6 @@
 package Sems3.AD1.Assignment_2;
 import java.util.Arrays;
-public class q8 {
+public class A2Q8 {
     public static void main(String[] args) {
         int[] a = { -1,-4,0,1,2,3};
         Arrays.sort(a);

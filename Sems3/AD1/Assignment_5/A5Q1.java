@@ -1,7 +1,7 @@
 package Sems3.AD1.Assignment_5;
 
 import java.util.Scanner;
-public class q1 {
+public class A5Q1 {
 
     public static int linearSearch(int arr[],int target) {
         for(int i = 0;i < arr.length;i++) {

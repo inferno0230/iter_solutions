@@ -1,17 +1,16 @@
 package Sems3.AD1.Assignment_5;
 
 import java.util.Scanner;
-public class q4 {
 
-    public static int resursiveBinarySearch(int arr[], int left, int right, int x) {
-        if (right >= left) {
-            int mid = left + (right - left) / 2;
-            if (arr[mid] == x) return mid;
-            if (arr[mid] > x) return resursiveBinarySearch(arr, left, mid - 1, x);
-            return resursiveBinarySearch(arr, mid + 1, right, x);
-        }
-        return -1;
+public class A5Q2 {
+
+    public static int linearsearch(int arr[], int size, int key){
+        if (size == 0) return -1;
+        else if (arr[size - 1] == key) return size - 1;
+        return linearsearch(arr, size - 1, key);
     }
+
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter size of array: ");
@@ -22,7 +21,7 @@ public class q4 {
         int key = input.nextInt();
         input.close();
 
-        int index = resursiveBinarySearch(array,0, array.length - 1, key);
+        int index = linearsearch(array, array.length, key);
         System.out.println(key+" found at array index "+index);
     }
 }

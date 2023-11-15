@@ -1,7 +1,7 @@
 /* Find the smallest positive integer from a given array of positive and negative integer. */
 
 import java.util.*;
-public class q7 {
+public class A1Q7 {
     public static void main(String[] args) {
         int[] a={4,1,2,3,-7,-5,0,8,5,};
         System.out.println(missingno(a));

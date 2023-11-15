@@ -1,20 +1,21 @@
 package Sems3.AD1.Assignment_3;
 
 import java.util.Scanner;
-public class q3 {
-    public static int[] selectionSort(int arr[]) {
+public class A3Q2 {
+    public static int[] insertionSort(int arr[]) {
         int temp = 0;
-        for(int i = 0; i < arr.length; i++) {
-            int min = i;
-            for(int j = i+1; j < arr.length; j++) {
-                if(arr[j] < arr[min]) {
-                    min = j;
+        for(int i = 1; i < arr.length; i++) {
+            for(int j = i; j > 0; j--) {
+                if(arr[j] < arr[j-1]) {
+                    // swap elements
+                    temp = arr[j];
+                    arr[j] = arr[j-1];
+                    arr[j-1] = temp;
+                }
+                else {
+                    break;
                 }
             }
-            // swap elements
-            temp = arr[i];
-            arr[i] = arr[min];
-            arr[min] = temp;
         }
         return arr;
     }
@@ -27,7 +28,7 @@ public class q3 {
             arr[i] = input.nextInt();
         }
         input.close();
-        arr = selectionSort(arr);
+        arr = insertionSort(arr);
         System.out.println("Sorted array: ");
         for(int i = 0; i < 5; i++) {
             System.out.print(arr[i] + " ");

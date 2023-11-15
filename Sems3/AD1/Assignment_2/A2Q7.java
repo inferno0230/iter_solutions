@@ -1,5 +1,5 @@
 package Sems3.AD1.Assignment_2;
-public class q7 {
+public class A2Q7 {
     public static void main(String[] args) {
         System.out.println(power(3, 5));
     }

@@ -1,5 +1,5 @@
 package Sems3.AD1.Assignment_2;
-public class q6 {
+public class A2Q6 {
    public static void main(String[] args) {
         hexadecimal(163);
    }
