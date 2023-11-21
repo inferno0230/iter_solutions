@@ -3,11 +3,8 @@ package Sems3.AD1.Assignment_7;
 public class A7Q8 {
     public static void main(String[] args) {
         LinkedList linkedlist = new LinkedList();
-        linkedlist.append(1);
-        linkedlist.append(10);
-        linkedlist.append(5);
-        linkedlist.append(2);
-        linkedlist.append(1);
+        int inp[] = {1, 10, 5, 2, 7};
+        for (int i = 0; i < inp.length; i++) linkedlist.append(inp[i]);
         System.out.println("Before reversal: ");
         A7Q1.printList(linkedlist.head);
         linkedlist.head = reverseList(linkedlist.head);

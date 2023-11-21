@@ -5,11 +5,8 @@ import java.util.Scanner;
 public class A7Q2 {
     public static void main(String[] args) {
         LinkedList linkedlist = new LinkedList();
-        linkedlist.append(1);
-        linkedlist.append(10);
-        linkedlist.append(5);
-        linkedlist.append(2);
-        linkedlist.append(1);
+        int inp[] = {1, 10, 5, 2, 7};
+        for (int i = 0; i < inp.length; i++) linkedlist.append(inp[i]);
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the value to be inserted at the beginning of the list: ");
         int val = input.nextInt();

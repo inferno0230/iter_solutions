@@ -43,7 +43,6 @@ public class A6Q5 {
             String input = scanner.nextLine();
             adjacencyList[i] = input.replaceAll("\\s", "").toCharArray();
         }
-
         return adjacencyList;
     }
 
