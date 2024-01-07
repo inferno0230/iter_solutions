@@ -25,7 +25,6 @@ def provide_hint(guess, random_num) -> bool:
     
 def play_game() -> None:
     random_num = generate_secret_number()
-    print(f"Generated number: {random_num}")
     print("I have thought up a number.\nYou have 10 guesses to get it.")
     for i in range(1,11):
         current_guess = input(f"Guess #{i}\n> ")
