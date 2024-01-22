@@ -7,6 +7,7 @@ public class A8Q3 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a substring with Parenthesis");
         String inputtedString = input.nextLine();
+        input.close();
         char charArr[] = inputtedString.toCharArray();
         Stack <Character>stack = new Stack<>();
         boolean check = true;
@@ -22,7 +23,6 @@ public class A8Q3 {
             } else {
                 check = false; 
             }
-            //System.out.println(check); //Debug
         }
 
         if(check){
