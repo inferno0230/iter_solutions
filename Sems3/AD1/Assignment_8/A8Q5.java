@@ -9,14 +9,14 @@ public class A8Q5 {
         String str = input.nextLine();
         input.close();
         System.out.println("Expression: " + str);
-        if (isRedundant(str)) {
+        if (checkRedudant(str)) {
             System.out.println("No redundant brackets are present");
         } else {
             System.out.println("Yes, Redundant brackets are present");
         }
     }
 
-    public static boolean isRedundant(String str) {
+    public static boolean checkRedudant(String str) {
         Stack<Character> stack = new Stack<Character>();
         boolean flag = true;
        
