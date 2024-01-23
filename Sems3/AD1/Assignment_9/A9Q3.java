@@ -1,5 +1,5 @@
 package Sems3.AD1.Assignment_9;
-// Implement circular queue using array
+
 import java.util.*;
 
 class queue_3 {

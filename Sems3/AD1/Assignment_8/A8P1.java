@@ -62,18 +62,15 @@ public class A8P1 {
                 case 0:
                     System.exit(0);
                     break;
-
                 case 1:
                     top = push(S, top);
                     break;
-
                 case 2:
                     top = pop(S, top);
                     break;
                 case 3:
                     display(S, top);
                     break;
-
                 default:
                     System.out.println("Invalid input, please enter a valid choice.");
             }
